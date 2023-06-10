@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.rating {
+  display: flex;
+  align-items: center;
+  color: #ffd700; /* Warna bintang diisi */
+  font-size: 24px;
+}
+
+.star {
+  display: inline-block;
+  margin-right: 4px;
+  width: 24px;
+  height: 24px;
+  background-color: #ccc; /* Warna bintang kosong */
+}
+
+.filled {
+  background-color: #ffd700; /* Warna bintang diisi */
+}
+
+.decimal {
+  background-color: #ffd700; /* Warna bintang diisi */
+  height: 24px;
+  display: inline-block;
+  width: 60%;
+  margin-bottom: 4px;
+}
+
+.button-view {
+  width: 100% !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.text-subtitle {
+  font-size: 14px;
+}
